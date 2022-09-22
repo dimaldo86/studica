@@ -45,7 +45,12 @@
             <div class="modal__wrapper">
 
                 <div class="modal__header">
-                    <input type="search" name="search" id="search" placeholder="Регион, город, населенный пункт">
+                    <div class="modal__search">
+                        <input type="search" name="search" id="search" placeholder="Регион, город, населенный пункт">
+                        <svg class="search__close" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#A7A7A7"/>
+                        </svg>
+                    </div>
 
                     <div class="modal__city">
                         <div class="modal__city-item">
@@ -59,6 +64,31 @@
                     </div>
                 </div>  <!--modal__header-->
 
+                <div class="modal__content">
+                    <ul class="modal__list list">
+                        <li class="list__item">
+                            <span class="list__city">dddd</span>
+                            <span class="list__state">dddd</span>
+                        </li>
+                    </ul>
+
+                    <ul class="modal__list list">
+                        <li class="list__item">
+                            <span class="list__city">dddd</span>
+                            <span class="list__state">dddd</span>
+                        </li>
+                    </ul>
+
+                    <ul class="modal__list list">
+                        <li class="list__item">
+                            <span class="list__city">dddd</span>
+                            <span class="list__state">dddd</span>
+                        </li>
+                    </ul>
+                </div> <!--modal__content-->
+                <div class="modal__footer">
+                    <button class="modal__btn">сохранить</button>
+                </div>
             </div> <!--modal__wrapper-->
     </div> <!--modal-->
     <script src="js/app.js"></script>
